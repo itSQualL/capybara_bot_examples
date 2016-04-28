@@ -17,8 +17,6 @@ EMAIL_SELECTOR = ".js-email-sign"
 POSTAL_CODE = "div.control-group:nth-child(4) > div:nth-child(1) > span:nth-child(1) > input:nth-child(1)"
 SIGN_BUTTON = "input.btn-full:nth-child(4)"
 
-
-
 def sign_with_placeholders_text
   visit URL
 
