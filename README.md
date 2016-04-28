@@ -24,6 +24,18 @@ gem install selenium
 gem install selenium-webdriver
 ```
 
+Webkit: https://github.com/thoughtbot/capybara-webkit
+
+Como os he comentado, webkit, al contrario que selenium, no levanta la interfaz visual del navegador por lo que es más rápido.
+
+Para hacer uso de él basta con:
+```
+gem install capybara-webkit
+```
+
+Y a la hora de elegir el driver que utlizará capybara usar:
+`Capybara.default_driver = :webkit`
+
 ##Probando los ejemplos
 Recordad que para acceder a la consola de ruby podeis utlizar `irb`
 Una vez dentro podemos cargar un archivo utilizando: `load "<path_to_the_file>"`
