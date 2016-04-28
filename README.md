@@ -21,3 +21,7 @@ Selenium webdriver: https://github.com/seleniumhq/selenium
 gem install selenium
 gem install selenium-webdriver
 ```
+
+##Probando los ejemplos
+Recordad que para acceder a la consola de ruby podeis utlizar `irb`
+Una vez dentro podemos cargar un archivo utilizando: `load "<path_to_the_file>"`
