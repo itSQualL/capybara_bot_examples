@@ -1,3 +1,7 @@
+#Os dejo dos formas de hacerlo.
+#Para probarlas simplemente recordad hacer <load 'sign_change_org.rb'> dentro de irb
+#Una vez cargado probad a ejecutar el método que quereis
+
 require "capybara"
 require "capybara/dsl"
 require "selenium-webdriver"
