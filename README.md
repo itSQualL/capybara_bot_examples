@@ -12,6 +12,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 ####Gemas a utilizar
 
 Capybara: https://github.com/jnicklas/capybara
+
 Cheatsheet de funciones más utilizadas: https://gist.github.com/zhengjia/428105
 ```
 gem install capybara
